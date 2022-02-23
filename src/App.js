@@ -17,7 +17,7 @@ import History from "./History";
 
 const App = () => {
    let routes = useRoutes([
-      { exact path: '/', element: <Home /> },
+      { path: '/', element: <Home /> },
       { path: '/home', element: <Home /> },
       { path: '/createuser', element: <CreateUser /> },
       { path: '/users', element: <Users /> },
