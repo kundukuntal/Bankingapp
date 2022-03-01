@@ -236,7 +236,9 @@ const onAmountChange = (e) => {
                         variant='contained' 
                         className={classes.sendButton}
                         onClick={transferMoney}
+                         
                     >
+                             <Redirect to="/transaction" />
                          {loading ? <CircularProgress size={30} /> : buttonContents}
                     </Button>
                 </Grid>
