@@ -5,7 +5,7 @@ const Home = () => {
                   <div className="home">
       <div className="description">
         <h1><b>Welcome to Online Banking Services</b></h1>
-        //<p>This application is created for the purpose of the Web Development Internship tasks for GRIP under <b><u>The Sparks Foundation</u></b>.</p>
+        <p>This application is created for the purpose of the Web Development Internship tasks for GRIP under <b><u>The Sparks Foundation</u></b>.</p>
         </div>
       <div className="img">
         <img height = {350}src={icon} alt="icon"/>
