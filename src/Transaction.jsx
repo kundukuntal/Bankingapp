@@ -7,7 +7,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import moment from "moment";
 import { CircularProgress,Snackbar } from "@material-ui/core";
-import { Redirect } from 'react-router';
+
 
 
 
@@ -128,7 +128,7 @@ else {
     setAlert({ open: true, color: "#FF3232" });
     setAlertMesssage("Something went wrong! Please try again.");
 });
-  window.location.reload();
+ 
     setAmt(0);
     setReciver("");
     setSender("");
@@ -239,7 +239,7 @@ const onAmountChange = (e) => {
                         onClick={transferMoney}
                          
                     >
-                             <Redirect to="/transaction" />
+                          
                          {loading ? <CircularProgress size={30} /> : buttonContents}
                     </Button>
                 </Grid>
